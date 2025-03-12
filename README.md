@@ -25,6 +25,15 @@ To set it as your light flavor, change the content of your theme.toml to:
 light = "kanagawa-lotus"
 ```
 
+Make sure your theme.toml doesn't contain anything other than [flavor], unless you want to override certain styles of this flavor.
+
+See the Yazi flavor documentation for more details.
+
+## 🔗 Related Flavors
+
+- [🌊 Kanagawa Wave](https://github.com/dangooddd/kanagawa.yazi)
+- [🐉 Kanagawa Dragon](https://github.com/marcosvnmelo/kanagawa-dragon.yazi)
+
 ## 📜 License
 
 The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
