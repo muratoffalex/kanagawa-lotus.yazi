@@ -128,3 +128,38 @@ rules = [
     { url = "*", fg = "#545464" },
     { url = "*/", fg = "#4d699b" },
 ]
+
+[icon]
+
+dirs = [
+    { name = ".config", text = "", fg = "#624c83" },
+    { name = ".git", text = "", fg = "#77713f" },
+    { name = ".github", text = "", fg = "#4d699b" },
+    { name = ".npm", text = "", fg = "#4d699b" },
+    { name = "Desktop", text = "", fg = "#77713f" },
+    { name = "Development", text = "", fg = "#77713f" },
+    { name = "Documents", text = "", fg = "#77713f" },
+    { name = "Downloads", text = "", fg = "#77713f" },
+    { name = "Library", text = "", fg = "#77713f" },
+    { name = "Movies", text = "", fg = "#77713f" },
+    { name = "Music", text = "", fg = "#77713f" },
+    { name = "Pictures", text = "", fg = "#77713f" },
+    { name = "Public", text = "", fg = "#77713f" },
+    { name = "Videos", text = "", fg = "#77713f" },
+]
+conds = [
+    # Special files
+    { if = "orphan", text = "", fg = "#d7474b" },
+    { if = "link", text = "", fg = "#8a8980" },
+    { if = "block", text = "", fg = "#77713f" },
+    { if = "char", text = "", fg = "#77713f" },
+    { if = "fifo", text = "", fg = "#77713f" },
+    { if = "sock", text = "", fg = "#77713f" },
+    { if = "sticky", text = "", fg = "#77713f" },
+    { if = "dummy", text = "", fg = "#d7474b" },
+    
+    # Fallback
+    { if = "dir", text = "", fg = "#4d699b" },
+    { if = "exec", text = "", fg = "#6e915f" },
+    { if = "!dir", text = "", fg = "#545464" },
+]
