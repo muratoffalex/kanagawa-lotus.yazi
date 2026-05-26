@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```bash
-ya pack -a muratoffalex/kanagawa-lotus
+ya pkg add muratoffalex/kanagawa-lotus
 ```
 
 ## ⚙️ Usage
